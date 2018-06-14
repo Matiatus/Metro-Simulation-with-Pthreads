@@ -1,5 +1,5 @@
-# COMP 304: Operating Systems
-# Project 2 : Metro Simulation with POSIX Threads
+# COMP 304 : Operating Systems
+# Project : Metro Simulation with POSIX Threads
 
 This project is about scheduling the trains that originate from four different locations called A, B, E and F and use a tunnel to reach the destination point. As trains will be created concurrently but only one train can pass the tunnel at a time, threads are used to manage train creation and work as a control center. In order to manage concurrency, POSIX mutex and semaphores are employed. Detailed description can be found in the [project description](https://github.com/Matiatus/Metro-Simulation-with-Pthreads/blob/master/Project_Description.pdf).
 
